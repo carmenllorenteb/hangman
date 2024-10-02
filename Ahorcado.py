@@ -23,7 +23,7 @@ def ahorcado():
 
     letras_por_adivinar = set(palabra)
     letras_adivinadas = set() 
-    abecedario = set(string.ascii_uppercase) 
+    abecedario = set(string.ascii_uppercase + "Ñ") 
 
     vidas = 7
 
